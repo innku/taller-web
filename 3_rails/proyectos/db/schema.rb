@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(:version => 20110507171126) do
 
   create_table "projects", :force => true do |t|
     t.string   "name"
+    t.date     "start"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
