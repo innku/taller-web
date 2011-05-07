@@ -8,7 +8,13 @@ class App < Sinatra::Base
   end
   
   helpers do
-    
+    def display_list(items)
+      lista = "<ul>"
+      items.each do |item|
+        lista += yield
+      end
+      lista += "</ul>"
+    end
   end
   
 end
