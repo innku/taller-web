@@ -11,18 +11,8 @@ class App < Sinatra::Base
     erb :new
   end
   
-  post 'process' do
-    
-  end
-  
-  helpers do
-    def display_list(items)
-      lista = "<ul>"
-      items.each do |item|
-        lista += yield
-      end
-      lista += "</ul>"
-    end
+  post '/process' do
+    params.inspect
   end
   
 end
