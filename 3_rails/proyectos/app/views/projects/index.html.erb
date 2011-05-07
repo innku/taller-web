@@ -1,0 +1,21 @@
+<h1>Proyectos</h1>
+
+<table>
+  <% @projects.each do |project| %>
+    <tr>
+      
+      <td>
+        <strong><%= link_to project.name, project %></strong>
+      <td>
+      
+      <td>
+        <%= truncate project.description, :size => 10 %>
+      </td>
+      
+      <td>
+        <%= project.start %>
+      </td>
+      
+    </tr>
+  <% end %>
+</table>
