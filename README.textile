@@ -17,30 +17,39 @@ h2. Herramientas
   * Consola
   * Servidor
   
-h2. Modelos
+h2. Proyecto
+  * Como usuario puedo crear un proyecto
+  * Como usuario puedo agregar tareas al proyecto
+  * Como usuario puedo marcar una tarea como completada dinamicamente
+  * Como usuario puedo agregar tareas dinamicamente a ese proyecto
+  * Como usuario me puedo registrar
+  * Como usuario puedo asignar una tarea a otro usuario
+  * Como usuario recibo un correo cuando se me asigna una tarea
+  
+h3. Modelos
   * Migraciones de la base de datos
   * Validaciones y Callbacks
   * Asociaciones
   * Queries
   
-h2. Vistas
+h3. Vistas
   * ERB Layouts y partials
   * Formas y helpers de formas
   * Helpers
   
-h2. Controladores
+h3. Controladores
   * Acciones de los controladores
   * Rest
   * Rutas
   
-h2. Javascript
+h3. Javascript
   * Javascript no obstrusivo
   * "Jquery y Rails":https://github.com/rails/jquery-ujs
 
-h2. Mails
+h3. Mails
   * Crear un mail
 
-h2. Produccion
+h3. Produccion
   * "Heroku":http://heroku.com
   
 h2. Mas Recursos
