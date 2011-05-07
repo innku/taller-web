@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/process' do
-    params.inspect
+    params[:user][:password]
   end
   
 end
