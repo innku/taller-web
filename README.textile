@@ -8,6 +8,7 @@ h2. Html
 h2. Ruby
   * Bloques
   * Hashes
+  * Parametros
   
 h2. MVC
   * Presentacion
