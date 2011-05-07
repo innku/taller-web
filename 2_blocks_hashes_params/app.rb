@@ -7,6 +7,14 @@ class App < Sinatra::Base
     erb :example
   end
   
+  get '/new' do
+    erb :new
+  end
+  
+  post 'process' do
+    
+  end
+  
   helpers do
     def display_list(items)
       lista = "<ul>"
