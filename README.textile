@@ -1,0 +1,49 @@
+h1. Taller de Rails
+
+h2. Html
+  * Formas
+  * Metodos
+  * Presentacion
+  
+h2. Ruby
+  * Bloques
+  * Hashes
+  
+h2. MVC
+  * Presentacion
+  
+h2. Herramientas
+  * Generadores
+  * Consola
+  * Servidor
+  
+h2. Modelos
+  * Migraciones de la base de datos
+  * Validaciones y Callbacks
+  * Asociaciones
+  * Queries
+  
+h2. Vistas
+  * ERB Layouts y partials
+  * Formas y helpers de formas
+  * Helpers
+  
+h2. Controladores
+  * Acciones de los controladores
+  * Rest
+  * Rutas
+  
+h2. Javascript
+  * Javascript no obstrusivo
+  * "Jquery y Rails":https://github.com/rails/jquery-ujs
+
+h2. Mails
+  * Crear un mail
+
+h2. Produccion
+  * "Heroku":http://heroku.com
+  
+h2. Mas Recursos
+  * "Rails for zombies":http://railsforzombies.org/
+  * "Screencasts de Ryan Bates":http://railscasts.com/
+  * "Informacion de Rails":http://rails.info
